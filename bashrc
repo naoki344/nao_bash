@@ -1,0 +1,6 @@
+alias ls='ls -G'
+alias rm='set -f; rmrm'
+alias sg='ssh -i imfine.key root@153.127.253.153'
+alias sn='ssh root@nao344.xyz'
+alias sshn='ssh root@nao344.xyz'
+alias vi='nvim'
