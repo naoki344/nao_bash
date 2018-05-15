@@ -38,9 +38,8 @@ export LANG=ja_JP.UTF-8
 export PATH=$PATH:$HOME/.nodebrew/current/bin/
 export XDG_CONFIG_HOME=~/.config
 export TERM=xterm-256color
+export PS1="[\u@\w]$ "
 #alias ls='gls --color=auto'
-#eval $(gdircolors ~/.dircolors-solarized/dircolors.256dark)
-alias ls='ls -G'
 eval $(gdircolors ~/.dircolors-solarized/dircolors.256dark)
 
 test -r ~/.bashrc && . ~/.bashrc
