@@ -40,4 +40,4 @@ export XDG_CONFIG_HOME=~/.config
 export TERM=xterm-256color
 export PS1="[\u@\w]$ "
 
-test -r ~/.bashrc && . ~/.bashrc
+#test -r ~/.bashrc && . ~/.bashrc
