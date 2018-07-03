@@ -35,7 +35,7 @@ function rmrm() {
     fi
 }
 export LANG=ja_JP.UTF-8
-export PATH=$PATH:$HOME/.nodebrew/current/bin/
+export PATH=$PATH:$HOME/.nodebrew/current/bin/:~/.composer/vendor/bin/phpcs
 export XDG_CONFIG_HOME=~/.config
 export TERM=xterm-256color
 export PS1="[\u@\w]$ "
